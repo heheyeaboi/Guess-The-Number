@@ -1,5 +1,4 @@
 let randomNum=Math.floor(Math.random()*100)
-console.log(randomNum)
 let guess=prompt("Guess a number between 0 and 100")    
 let chance=1
 while(guess!=randomNum){
